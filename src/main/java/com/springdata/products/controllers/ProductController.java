@@ -25,7 +25,7 @@ import com.springdata.products.services.ProductService;
 public class ProductController {
   
   @Autowired
-  ProductService productService;
+  private ProductService productService;
   
   @PostMapping(path = "/api/product")
   public ResponseEntity<Product> register(@RequestBody Product product) {
