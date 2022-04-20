@@ -36,7 +36,7 @@ public class ProductController {
   public ResponseEntity<String> getAllProducts() {
     //return ResponseEntity.ok(productService.getAll());
   //public String getAllProducts() {
-return ResponseEntity.ok("....welcome....");
+return ResponseEntity.ok("....");
   }
 //ResponseEntity<List<Product>>
 
